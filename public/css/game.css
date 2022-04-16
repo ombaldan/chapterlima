@@ -1,0 +1,58 @@
+body {
+    background-color: #9C835F;
+}
+
+.heading {
+    margin-top: 50px; 
+}
+h1 {
+   text-transform: uppercase;
+   font-weight: 700;
+   color: #F9B23D;
+   padding-top: 20px;
+}
+
+.row {
+    margin-top: 50px;
+}
+
+.versus h3 {
+    font-size: 80px;
+    font-weight: bold;
+    color: red;
+}
+
+.card-header {
+    background-color: #F9B23D;
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 24px;
+}
+
+.col-md-5 {
+    max-width: 300px;
+}
+
+.col-md-5 img {
+    margin: 10px;
+}
+
+.mt-3 {
+    margin-bottom: 30px;
+}
+
+button {
+    background: none;
+    border: none;
+}
+
+button:active{
+    background: #ff8843;
+    border-radius: 10px;
+}
+
+button:focus{
+    background: #ff8843;
+    border-radius: 10px;
+}

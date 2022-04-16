@@ -9,6 +9,11 @@ app.get('/', (req, res) => {
     console.log("ini halaman Homepage")
 })
 
+app.get('/game', (req, res) => {
+    res.render('game')
+    console.log("ini halaman game")
+})
+
 app.listen(2000, () => {
     console.log("Server is Running.....")
 })

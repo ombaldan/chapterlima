@@ -1,10 +1,12 @@
 const express = require("express")
 const app = express()
-const bodyParser = require('body-parser')
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
-app.use(bodyParser.urlencoded({ extended: false }))
+
+app.use(express.urlencoded({ extended: false }))
+
+const users = []
 
 app.get('/', (req, res) => {
     res.render('index')
@@ -23,10 +25,14 @@ app.get('/login', (req, res) => {
 
 app.post('/login', (req, res) => {
   //  Login Code 
-  let username = req.body.username;
-  let password = req.body.password;
-  res.send(`Username: ${username} Password: ${password}`)
-  console.log('Login sukses')
+  const {username, password} = req.body
+
+  users.push({
+    username,
+    password
+  })
+  res.redirect('/game')
+  console.log(users)
 })
 
 app.listen(2000, () => {

@@ -1,0 +1,428 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Open+Sans:wght@400;700&display=swap');
+
+ /*Header dan Navbar */
+.navbar {
+    font-family: "open sans", sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ffff;
+}
+
+.header {
+    background-image: url(/assets/main-bg.jpg);
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header-title {
+    font-family: "bebas neue", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    padding-top: 15%;
+}
+
+.sub-header-title {
+    font-family: "open sans", sans-serif;
+    font-size: 18px;
+    color: #ffff;
+}
+
+.btn {
+    font-family: "open sans", sans-serif;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 10px 50px 10px 50px;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+button.btn.btn-warning {
+    margin-top: 10px;
+}
+
+.story-scroll-down {
+    color: #ffff;
+    margin-top: 20%;
+    font-family: "open sans", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    text-align: center;
+}
+/*End Header dan Navbar */
+
+/*Section-2*/
+.second-section {
+    background-image: url(/assets/the-games-bg.jpg);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    font-family: "bebas neue", sans-serif;
+    font-weight: bold;
+    color: #ffff;
+}
+
+.so-special {
+    margin-top: 40%;
+    margin-left: 20%;
+}
+
+.gallery-mini-info {
+    font-size: 24px;
+    text-transform: capitalize;
+}
+
+.gl-h1-info {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.carousel {
+    padding-top: 13%;
+    margin-right: 70px;
+}
+
+/*End of Section-2*/
+
+/*Section-3*/
+
+.section-three {
+    background-image: url(/assets/features.jpg);
+    background-position: left;
+    background-size: cover;
+    width: 100%;
+    height: 110vh;
+    background-repeat: no-repeat;
+    font-family: "bebas neue" sans-serif;
+    font-weight: bold;
+    color: #ffff;
+    text-align: left;
+}
+
+.feature1 {
+    padding-top: 15%;
+    padding-left: 800px;
+}
+
+.the-feature {
+    font-size: 24px;
+}
+
+.heading-features {
+    font-size: 80px;
+    text-transform: uppercase;
+}
+
+.feature2 {
+    padding-top: 5%;
+    padding-left: 850px;
+    line-height: 1.5rem;
+}
+
+.traditional-feature {
+    color: #FFB548;
+    margin-bottom: 15px;
+}
+
+.text-feature-2 {
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "open sans", sans-serif;
+    font-style: normal;
+    margin-bottom: 50px;
+}
+
+.game-suite {
+    margin-bottom: 40px;
+    color: #FFB548;
+}
+
+.tbd {
+    color: #FFB548;
+}
+/*End of Section-3*/
+
+/*Start Section 4*/
+
+.system-requirements {
+    background-image: url(/assets/requirements.png);
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.opening-reqsyst {
+    color: #ffff;
+    font-family: "open sans", sans-serif;
+    font-size: 18px;
+    padding-top: 5%;
+}
+
+.title-reqsyst {
+    font-size: 80px;
+    text-align: left;
+    text-transform: uppercase;
+    padding: 70px;
+    padding-bottom: 30px;
+    color: #ffff;
+    font-family: "bebas neue", sans-serif;
+    line-height: 4rem;
+    letter-spacing: 10px;
+}
+
+.table {
+    background: transparent;
+    border-color: rgba(255, 255, 255, 0.178);
+    vertical-align: center;
+    margin-bottom: 1rem;
+    margin-left: 5rem;
+    color: #ffff;
+    font-family: "open sans", sans-serif;
+    font-size: 18px;
+    max-width: 40vw !important;
+    max-height: 10vw;
+}
+
+.table-reqsyst h2 {
+    font-family: "bebas neue", sans-serif;
+    color: #FFB548;
+    font-size: 36px;
+    font-weight: bold;
+}
+
+/*End Section 4*/
+
+/*Start Section 5*/
+
+.top-scores {
+    background-image: url(/assets/top-score-bg.png);
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.938);
+    font-family: "open sans", sans-serif;
+    color: #ffff;
+}
+
+.left-top-scores {
+    padding-top: 50%;
+    padding-left: 20%;
+}
+
+.content-top-scores {
+    font-family: "bebas neue", sans-serif;
+    font-size: 80px;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+
+.sub-content-top-scores {
+    font-size: 18px;
+}
+
+/*Testimoni*/
+/*Testimoni Evan*/
+#evan {
+    background-color: #1d1e1ed7;
+    width: 400px;
+    height: auto;
+    color: #ffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-top: 7%;
+    margin-left: 25%;
+    line-height: 5px;
+}
+
+.card p {
+    font-size: 14px;
+    font-family: "open sans", sans-serif;
+}
+
+.card h3 {
+    color: #FFB548;
+    font-family: "bebas neue", sans-serif;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.card .col-2 {
+    width: 50px;
+    height: 50px;
+    padding-right: 0;
+}
+
+.evan-date {
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
+
+/*End ofTestimoni Evan*/
+
+/*Testimoni Jada*/
+
+#jada {
+    background-color: #1d1e1ed7;
+    width: 400px;
+    height: auto;
+    color: #ffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-top: 22%;
+    margin-left: 10%;
+    line-height: 5px;
+}
+
+.jada-testimoni {
+    line-height: 20px;
+}
+
+.jada-date {
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
+
+/*End of Testimoni Jada*/
+
+/*Testimoni Aron*/
+
+#aron {
+    background-color: #1d1e1ed7;
+    width: 400px;
+    height: auto;
+    color: #ffff;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    word-wrap: break-word;
+    background-clip: border-box;
+    border-radius: 0.5rem;
+    margin-top: 40%;
+    margin-left: 25%;
+    line-height: 5px;
+}
+
+.aron-testimoni {
+    line-height: 20px;
+}
+
+.aron-date {
+    padding-top: 20px;
+    font-size: 12px;
+    color: rgb(95, 93, 93);
+}
+
+/*End of Testimoni Aron*/
+
+/*End of Testimoni*/
+
+/*End of Section 5*/
+
+/*Start Section 6*/
+
+.newsletter {
+    background-color: #000;
+    width: 100%;
+    height: 120vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    font-family: "open sans", sans-serif;
+    color: #ffff;
+    padding-top: 10%;
+    padding-right: 10%;
+}
+
+.patung {
+    padding-left: 10%;
+    position: absolute;
+}
+
+.subscribe {
+    font-family: "open sans", sans-serif;
+    font-size: 14px;
+    padding-top: 15%;
+}
+
+.subscribe h3 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.subscribe h1 {
+    font-size: 80px;
+    font-family: "bebas neue";
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+input[type=text] {
+    
+    padding: 10px 20px;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    outline: none;
+    width: 20rem;
+    height: 3.5rem;
+    background-color: rgba(66, 66, 66, 0.637);
+}
+
+/*End of Section 6*/
+
+/*Footer*/
+
+.footer {
+    background-color: #000;
+    min-height: 100px;
+    width: 100%;
+    color: #ffff;
+    line-height: normal;
+    font-family: "open sans", sans-serif;
+}
+
+.footer-nav {
+    margin-left: 50%;
+}
+
+.social-media {
+    margin-left: 30%;
+    letter-spacing: 25px;
+}
+
+.footer-copyright {
+    font-size: 12px;
+    color: rgb(48, 48, 48);
+    margin-left: 50px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.privacy {
+    float: right;
+    margin-right: 50px;
+    margin-bottom: 20px;
+}

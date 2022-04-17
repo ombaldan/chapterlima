@@ -1,5 +1,7 @@
 const express = require("express")
+const { process_params } = require("express/lib/router")
 const app = express()
+const posts = require('./db/posts.json')
 
 app.set('view engine', 'ejs')
 app.use(express.static('public'))
@@ -24,7 +26,6 @@ app.get('/login', (req, res) => {
   })
 
 app.post('/login', (req, res) => {
-  //  Login Code 
   const {username, password} = req.body
 
   users.push({
@@ -33,6 +34,25 @@ app.post('/login', (req, res) => {
   })
   res.redirect('/game')
   console.log(users)
+})
+
+app.get('/api/v1/posts', (req, res) => {
+  res.status(200).send(posts)
+})
+
+app.get('/api/v1/posts/:id', (req, res) => {
+  const post = posts.find(i => i.id == req.params.id)
+  res.status(200).send(post)
+})
+
+app.post('/api/v1/posts', (req, res) => {
+  const {username, password} = req.body
+  console.log(req.body)
+  const id = posts[posts.length - 1].id + 1
+  const post = {id, username, password}
+
+  posts.push(post)
+  res.status(201).send(post)
 })
 
 app.listen(2000, () => {
